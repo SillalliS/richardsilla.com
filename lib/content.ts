@@ -58,7 +58,7 @@ export const home = {
       title: "Marketplace & Mobility Optimization",
       blurb:
         "Improved matching, payments and parcel delivery workflows at SafeBoda through data-led platform decisions.",
-      metric: "Parcel throughput 5×",
+      metric: "Driver engagement increased 2x",
     },
   ],
 };
