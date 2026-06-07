@@ -108,7 +108,7 @@ export const workItems = [
     decision:
       "Led migration of 9 markets to a unified telephony and routing platform while balancing platform stability, operational continuity and market-specific requirements.",
     outcome:
-      "Improved SLA governance and operational resilience while reducing run-cost by approximately 15% of headcount.",
+      "Improved SLA governance and operational resilience while reducing run-cost by approximately 15%.",
   },
   {
     title: "SafeBoda — Mobility & Marketplace Platforms",
@@ -117,7 +117,7 @@ export const workItems = [
     decision:
       "Used NPS, funnel metrics and operational signals to prioritize marketplace workflows, mobile money payments, routing improvements and last-mile tooling.",
     outcome:
-      "Scaled parcel delivery throughput 5×, improved ride matching and trip completion by 4%, and improved cashless transaction experience.",
+      "Improved ride matching and completion rates by 4% through data-driven prioritization and experimentation.",
   },
   {
     title: "Microsoft — People Experiences",

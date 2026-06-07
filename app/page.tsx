@@ -27,7 +27,10 @@ export default function HomePage() {
             {home.intro}
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
-            <Link className="button-primary" href="/work">
+            <Link
+              className="inline-flex items-center justify-center border border-neutral-950 bg-neutral-950 px-5 py-3 text-sm font-medium !text-white transition hover:bg-neutral-800"
+              href="/work"
+            >
               View Work
             </Link>
             <Link className="button-secondary" href="/how-i-think">
