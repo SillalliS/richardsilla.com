@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer";
 import { HighlightCard } from "@/components/case-card";
 import { Nav } from "@/components/nav";
 import { Section } from "@/components/section";
-import { home, site } from "@/lib/content";
+import { home, industries, site } from "@/lib/content";
 
 export default function HomePage() {
   return (
@@ -61,6 +61,27 @@ export default function HomePage() {
               </li>
             ))}
           </ul>
+        </Section>
+
+        <Section
+          intro="My product work has moved across industries where platforms, operations, partners, and customer experience all have to work together."
+          title="Industries I’ve worked across"
+        >
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {industries.map((industry) => (
+              <article
+                className="rounded-sm border border-neutral-200 p-6"
+                key={industry.title}
+              >
+                <h3 className="text-lg font-semibold tracking-tight text-neutral-950">
+                  {industry.title}
+                </h3>
+                <p className="mt-4 text-base leading-7 text-neutral-600">
+                  {industry.body}
+                </p>
+              </article>
+            ))}
+          </div>
         </Section>
 
         <Section title="Operating Impact">

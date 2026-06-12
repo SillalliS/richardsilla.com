@@ -45,23 +45,51 @@ export const home = {
     {
       title: "AI Customer Experience Platform",
       blurb:
-        "Led product strategy for AI, voice, live chat and social self-service across 9 Jumia markets.",
-      metric: "IPGO ↓ 12% · CSAT +9",
+        "Led product strategy for AI, voice, live chat, and social self-service across 9 Jumia markets, shifting high-volume support journeys from agent-led handling to platform-led automation.",
+      metric: "IPGO ↓ 12% · CSAT +9 · Containment 65%",
     },
     {
       title: "Platform Migration at Scale",
       blurb:
-        "Migrated 9 markets to a unified telephony and routing platform, improving SLA governance and operational resilience.",
-      metric: "9 markets unified",
+        "Migrated 9 markets from fragmented telephony and routing setups to a unified platform with shared routing logic, stronger SLA governance, and improved operational resilience.",
+      metric: "Run-cost ↓ ~15% · 9 markets unified",
     },
     {
       title: "Marketplace & Mobility Optimization",
       blurb:
-        "Improved matching, payments and parcel delivery workflows at SafeBoda through data-led platform decisions.",
-      metric: "Driver engagement increased 2x",
+        "Used NPS, funnel metrics, and operational signals to prioritize driver engagement, mobile money, matching, routing, and parcel-delivery workflow improvements at SafeBoda.",
+      metric: "Driver engagement increased 2x · Matching/completion +4%",
     },
   ],
 };
+
+export const industries = [
+  {
+    title: "E-commerce & Marketplaces",
+    body:
+      "AI self-service, vendor operations, affiliate platforms, customer experience, and marketplace workflows across Jumia markets.",
+  },
+  {
+    title: "Mobility & Logistics",
+    body:
+      "Rider-driver matching, parcel delivery, payments, routing, and last-mile operational tooling at SafeBoda.",
+  },
+  {
+    title: "Payments & Financial Services",
+    body:
+      "Mobile money, cardholder services, lending, collections, banking CRM, and financial-services product operations.",
+  },
+  {
+    title: "Enterprise SaaS, CRM & Public Sector",
+    body:
+      "Microsoft 365 people experiences, Dynamics 365, ERP, public-sector digitization, and large-scale stakeholder delivery.",
+  },
+  {
+    title: "AI, Voice & Customer Operations",
+    body:
+      "Conversational AI, voice bots, telephony, routing, live chat, social support, automation, and cost-to-serve reduction.",
+  },
+];
 
 export const thinkingSections = [
   {
