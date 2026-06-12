@@ -89,6 +89,12 @@ export const industries = [
     body:
       "Conversational AI, voice bots, telephony, routing, live chat, social support, automation, and cost-to-serve reduction.",
   },
+  {
+    title: "Claude & AI-Native Product Workflows",
+    body:
+      "Building Claude Architect capability across Claude, agents, MCP, Claude Code, and AI-native product workflows — focused on using AI to accelerate product discovery, prototyping, decision support, and operational automation.",
+    metric: "Claude Architect track · AI-native PM workflows",
+  },
 ];
 
 export const thinkingSections = [

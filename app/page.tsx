@@ -79,6 +79,11 @@ export default function HomePage() {
                 <p className="mt-4 text-base leading-7 text-neutral-600">
                   {industry.body}
                 </p>
+                {"metric" in industry ? (
+                  <p className="mt-6 text-sm font-semibold text-neutral-950">
+                    {industry.metric}
+                  </p>
+                ) : null}
               </article>
             ))}
           </div>
