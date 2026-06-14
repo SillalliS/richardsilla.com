@@ -14,14 +14,14 @@ export const home = {
   heroTitle:
     "I lead product at the intersection of AI, platforms, and operational scale.",
   heroSubtitle:
-    "I’m a senior product leader with 15+ years of experience building platform products across AI, automation, voice, marketplaces, payments, and digital operations across 9+ markets.",
+    "Senior product leader with 15+ years building AI, platform, marketplace, payments, and operational products across 9+ markets.",
   intro:
-    "I help teams turn complex operational systems into scalable products that reduce cost, improve customer experience, and create business leverage.",
+    "I turn complex operating systems into scalable products that reduce cost, improve customer experience, and create business leverage.",
   proof: [
-    "15+ years product and platform leadership",
+    "15+ years product & platform leadership",
     "9+ markets across Africa and global teams",
-    "AI, voice, automation, marketplaces, payments and CRM",
-    "Microsoft, Jumia, SafeBoda, Eclectics",
+    "AI, voice, automation, marketplaces, payments, CRM",
+    "Microsoft · Jumia · SafeBoda · Eclectics",
   ],
   metrics: [
     {
@@ -89,13 +89,15 @@ export const industries = [
     body:
       "Conversational AI, voice bots, telephony, routing, live chat, social support, automation, and cost-to-serve reduction.",
   },
-  {
-    title: "Claude & AI-Native Product Workflows",
-    body:
-      "Building Claude Architect capability across Claude, agents, MCP, Claude Code, and AI-native product workflows — focused on using AI to accelerate product discovery, prototyping, decision support, and operational automation.",
-    metric: "Claude Architect track · AI-native PM workflows",
-  },
 ];
+
+export const claudeTrack = {
+  title: "Claude Architect Track",
+  label: "Building now",
+  body:
+    "Building Claude capability across agents, MCP, Claude Code, and AI-native product workflows — focused on product discovery, prototyping, decision support, and operational automation.",
+  metric: "Claude Architect track · AI-native PM workflows",
+};
 
 export const thinkingSections = [
   {
