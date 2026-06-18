@@ -1,3 +1,4 @@
+import { ActionLinks } from "@/components/action-links";
 import { CaseCard } from "@/components/case-card";
 import { Footer } from "@/components/footer";
 import { Nav } from "@/components/nav";
@@ -22,6 +23,7 @@ export default function WorkPage() {
             drive measurable outcomes through teams and platforms.
           </p>
         </header>
+        <ActionLinks className="mt-8" currentPage="work" />
 
         <div className="mt-16">
           {workItems.map((item) => (

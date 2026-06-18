@@ -9,7 +9,7 @@ const navItems = [
 
 export function Nav() {
   return (
-    <header className="border-b border-neutral-200 bg-white">
+    <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 backdrop-blur">
       <nav
         aria-label="Primary navigation"
         className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-6 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-8"

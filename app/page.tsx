@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ActionLinks } from "@/components/action-links";
 import { Footer } from "@/components/footer";
 import { HighlightCard } from "@/components/case-card";
 import { Nav } from "@/components/nav";
@@ -40,28 +40,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <div className="mt-7 flex flex-wrap gap-3">
-            <Link
-              className="inline-flex items-center justify-center border border-neutral-950 bg-neutral-950 px-5 py-3 text-sm font-medium !text-white transition hover:bg-neutral-800"
-              href="/work"
-            >
-              View Work
-            </Link>
-            <Link className="button-secondary" href="/how-i-think">
-              How I Think
-            </Link>
-            <a
-              className="button-secondary"
-              href={site.linkedin}
-              rel="noreferrer"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-            <a className="button-secondary" href={`mailto:${site.email}`}>
-              Email
-            </a>
-          </div>
+          <ActionLinks className="mt-7" currentPage="home" />
           <div className="mt-7 border-t border-neutral-200 pt-5">
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-600">
               At a glance

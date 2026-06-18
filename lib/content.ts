@@ -5,8 +5,13 @@ export const site = {
   title: "Richard Silla Mulandi | Senior Product Leader",
   description:
     "Senior product leader focused on AI, platforms, automation, and operational scale.",
-  email: "sillamulandi@gmail.com",
+  email: "silla@upeolabs.com",
   linkedin: "https://www.linkedin.com/in/richard-silla/",
+  // To enable Resume later, set visible to true and ensure the PDF exists in /public.
+  resume: {
+    href: "/Richard-Silla-Mulandi-Resume.pdf",
+    visible: false,
+  },
 };
 
 export const home = {

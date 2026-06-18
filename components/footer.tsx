@@ -1,7 +1,5 @@
 import { site } from "@/lib/content";
 
-const resumeHref = "/Richard-Silla-Mulandi-Resume.pdf";
-
 export function Footer() {
   return (
     <footer className="border-t border-neutral-200 bg-white">
@@ -24,9 +22,14 @@ export function Footer() {
           >
             Email
           </a>
-          <a className="transition hover:text-neutral-950" href={resumeHref}>
-            Resume
-          </a>
+          {site.resume.visible ? (
+            <a
+              className="transition hover:text-neutral-950"
+              href={site.resume.href}
+            >
+              Resume
+            </a>
+          ) : null}
         </div>
       </div>
     </footer>

@@ -1,3 +1,4 @@
+import { ActionLinks } from "@/components/action-links";
 import { Footer } from "@/components/footer";
 import { Nav } from "@/components/nav";
 import { thinkingSections } from "@/lib/content";
@@ -20,6 +21,7 @@ export default function HowIThinkPage() {
             determine whether a product decision can scale.
           </p>
         </header>
+        <ActionLinks className="mt-8" currentPage="how-i-think" />
 
         <div className="mt-16 border-t border-neutral-200">
           {thinkingSections.map((section, index) => (
